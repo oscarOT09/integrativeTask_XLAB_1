@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono>
 using namespace std;
 
 #ifndef LOGGER_H
@@ -10,10 +11,10 @@ public:
     static void logMember(const string& member);
     static void logArea(const string& area);
     static void logPerimeter(const string& perimeter);
+    static void initTime();
 private:
     static int getTimestamp();
-protected:
-    string color;
+    static chrono::steady_clock::time_point start_time;
 };
 
 #endif

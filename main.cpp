@@ -8,6 +8,8 @@
 using namespace std;
 
 int main(){
+    Logger::initTime();
+    
     double circle_radius;
     double triangle_heigth,
            triangle_s1Len,
