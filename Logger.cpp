@@ -6,6 +6,10 @@ using namespace std;
 chrono::steady_clock::time_point Logger::start_time;
 
 void Logger::log(const string& message){
+    if (message.empty()) {
+        cout << endl;
+        return;
+    } 
     cout << "[" << getTimestamp() << "] " << message << endl;
 }
 void Logger::logMember(const string& member){
