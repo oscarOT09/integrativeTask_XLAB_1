@@ -1,7 +1,10 @@
-#include <iostream>
-#include "Figure.h"
+/********************************************************
+ * Author: Oscar Ortiz Torres
+ * Created on: 09/07/2025
+ * Last modified: 11/07/2025
+ ********************************************************/
 
-using namespace std;
+#include "Figure.h"
 
 void Figure::setColor(const string& _color){
     color = _color;

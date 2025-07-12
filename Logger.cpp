@@ -1,7 +1,10 @@
-#include <iostream>
-#include "Logger.h"
+/********************************************************
+ * Author: Oscar Ortiz Torres
+ * Created on: 09/07/2025
+ * Last modified: 11/07/2025
+ ********************************************************/
 
-using namespace std;
+#include "Logger.h"
 
 chrono::steady_clock::time_point Logger::start_time;
 
