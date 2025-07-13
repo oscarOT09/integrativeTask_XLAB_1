@@ -1,6 +1,6 @@
 /********************************************************
  * Author: Oscar Ortiz Torres
- * Created on: [dd/mm/yyyy]
+ * Created on: 09/07/2025
  * Last modified: 12/07/2025
  * Description:
  *   Main program that demonstrates polymorphism in C++
@@ -100,9 +100,9 @@ int main(){
     
     Logger::log("Enter Triangle object parameters");
     triangle_heigth = readAndCheckDoubleInput("Height:");
-    triangle_s1Len = readAndCheckDoubleInput("Side 1 length:");
-    triangle_s2Len = readAndCheckDoubleInput("Side 2 length:");
-    triangle_baseLen = readAndCheckDoubleInput("Base (side 3) length:");
+    triangle_s1Len = readAndCheckDoubleInput("Left side length:");
+    triangle_s2Len = readAndCheckDoubleInput("Right side length:");
+    triangle_baseLen = readAndCheckDoubleInput("Base length:");
 
     Logger::log("Enter Pentagon object parameters");
     pentagon_sidesLen = readAndCheckDoubleInput("Sides length:");
